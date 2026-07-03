@@ -1,0 +1,7 @@
+servlets\DeleteStaffServlet.class
+servlets\LoginServlet.class
+servlets\RegisterServlet.class
+util\DBConnection.class
+servlets\AddStaffServlet.class
+servlets\UpdateStaffServlet.class
+servlets\LogoutServlet.class

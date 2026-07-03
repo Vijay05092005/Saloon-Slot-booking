@@ -1,0 +1,230 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    padding: 24px 0;
+    color: #f4eadf;
+    background:
+        linear-gradient(rgba(18, 12, 8, 0.72), rgba(23, 15, 10, 0.82)),
+        url("../images/home.jpg") center/cover fixed no-repeat;
+}
+
+.container,
+.table-container {
+    background: linear-gradient(156deg, rgba(50, 33, 20, 0.78), rgba(30, 20, 13, 0.62));
+    border: 1px solid rgba(255, 227, 194, 0.24);
+    box-shadow:
+        0 24px 66px rgba(0, 0, 0, 0.5),
+        inset 0 0 0 1px rgba(255, 243, 229, 0.08);
+    backdrop-filter: blur(12px);
+    animation: slideUp 0.8s ease;
+}
+
+.container {
+    width: min(540px, calc(100% - 32px));
+    margin: 32px auto;
+    padding: 30px 34px;
+    border-radius: 24px;
+}
+
+.table-container {
+    width: min(1180px, calc(100% - 32px));
+    margin: 32px auto;
+    padding: 24px;
+    border-radius: 26px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #ffe0bc;
+    font-size: 32px;
+    letter-spacing: 0.02em;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 6px;
+    color: #f5e7d6;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 225, 191, 0.26);
+    background: rgba(255, 242, 223, 0.1);
+    color: #f9ecde;
+    transition: 0.3s;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: #f1c48f;
+    box-shadow: 0 0 0 3px rgba(241, 196, 143, 0.2);
+    outline: none;
+}
+
+input[type="checkbox"] {
+    accent-color: #dea267;
+    margin-right: 8px;
+}
+
+button,
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #f3c995, #dea267);
+    color: #2e1b0f;
+    border: none;
+    border-radius: 999px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 12px 24px rgba(96, 64, 35, 0.38);
+}
+
+button:hover,
+input[type="submit"]:hover {
+    transform: translateY(-2px);
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.admin-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.admin-links a,
+.back-btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.admin-links a {
+    background: linear-gradient(135deg, #f3c995, #dea267);
+    color: #2e1b0f;
+    box-shadow: 0 12px 24px rgba(96, 64, 35, 0.3);
+}
+
+.back-btn {
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, rgba(243, 201, 149, 0.25), rgba(222, 162, 103, 0.2));
+    color: #fbe6cc;
+    border: 1px solid rgba(255, 223, 188, 0.34);
+}
+
+.admin-links a:hover,
+.back-btn:hover {
+    transform: translateY(-2px);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+table thead {
+    background: linear-gradient(135deg, #f2c38c, #dea267);
+    color: #2e1a0d;
+}
+
+table th {
+    padding: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 226, 196, 0.14);
+    color: #f6e9da;
+}
+
+table tbody tr:nth-child(even) {
+    background: rgba(255, 232, 208, 0.04);
+}
+
+table tbody tr:hover {
+    background: rgba(255, 232, 208, 0.08);
+    transition: 0.3s;
+}
+
+.action-btn {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.edit-btn {
+    background: linear-gradient(135deg, #f3c995, #dea267);
+    color: #2e1b0f;
+}
+
+.delete-btn {
+    background: linear-gradient(135deg, #e7856f, #d66153);
+    color: #fff7ef;
+}
+
+.action-btn:hover {
+    transform: translateY(-2px);
+}
+
+.table-photo {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 226, 195, 0.34);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+.image-path {
+    font-family: Consolas, monospace;
+    font-size: 12px;
+    color: #ffdcb7;
+    word-break: break-all;
+}
+
+@media (max-width: 860px) {
+    .table-container {
+        overflow-x: auto;
+    }
+
+    table {
+        min-width: 820px;
+    }
+}

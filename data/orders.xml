@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<orders>
+  <order createdAt="2026-03-06T19:32:44.894258" id="ORD-5A3B7EB7">
+    <customer>
+      <name>vignesh</name>
+      <phone>9003530942</phone>
+      <address>26 Vandikaran street&#13;
+muthialpet&#13;
+puducherry, puducherry, puducherry - 605003</address>
+    </customer>
+    <payment>
+      <method>QR Payment</method>
+      <status>SUCCESS</status>
+      <details>Paid via QR</details>
+      <totalAmount>480</totalAmount>
+    </payment>
+    <items>
+      <item>
+        <productName>Hair Conditioner</productName>
+        <quantity>1</quantity>
+        <unitPrice>180</unitPrice>
+        <subtotal>180</subtotal>
+      </item>
+      <item>
+        <productName>Face Cream</productName>
+        <quantity>1</quantity>
+        <unitPrice>300</unitPrice>
+        <subtotal>300</subtotal>
+      </item>
+    </items>
+  </order>
+  <order createdAt="2026-03-18T15:13:16.913554500" id="ORD-E151DA53">
+    <customer>
+      <name>vignesh</name>
+      <phone>9003530942</phone>
+      <address>ntwsjmyd,tufig&#13;
+kp/hj.l, puducherry, puducherry - 605003</address>
+    </customer>
+    <payment>
+      <method>QR Payment</method>
+      <status>SUCCESS</status>
+      <details>Paid via QR</details>
+      <totalAmount>550</totalAmount>
+    </payment>
+    <items>
+      <item>
+        <productName>Face Serum</productName>
+        <quantity>1</quantity>
+        <unitPrice>550</unitPrice>
+        <subtotal>550</subtotal>
+      </item>
+    </items>
+  </order>
+  <order createdAt="2026-03-18T15:25:16.463757200" id="ORD-14BE6F79">
+    <customer>
+      <name>Varshini</name>
+      <phone>1234567890</phone>
+      <address>sdfbgnhjhnrbtgerfw, puducherry, puducherry - 605003</address>
+    </customer>
+    <payment>
+      <method>Card</method>
+      <status>SUCCESS</status>
+      <details>Card ending in 4323</details>
+      <totalAmount>500</totalAmount>
+    </payment>
+    <items>
+      <item>
+        <productName>Hair Shampoo</productName>
+        <quantity>1</quantity>
+        <unitPrice>200</unitPrice>
+        <subtotal>200</subtotal>
+      </item>
+      <item>
+        <productName>Face Cream</productName>
+        <quantity>1</quantity>
+        <unitPrice>300</unitPrice>
+        <subtotal>300</subtotal>
+      </item>
+    </items>
+  </order>
+  <order createdAt="2026-03-18T16:01:38.735826700" id="ORD-A813D9EE">
+    <customer>
+      <name>vignesh</name>
+      <phone>9003530942</phone>
+      <address>26 vandikaran street muthialpet, puducherry, puducherry - 605003</address>
+    </customer>
+    <payment>
+      <method>QR Payment</method>
+      <status>SUCCESS</status>
+      <details>Paid via QR</details>
+      <totalAmount>480</totalAmount>
+    </payment>
+    <items>
+      <item>
+        <productName>Hair Conditioner</productName>
+        <quantity>1</quantity>
+        <unitPrice>180</unitPrice>
+        <subtotal>180</subtotal>
+      </item>
+      <item>
+        <productName>Face Cream</productName>
+        <quantity>1</quantity>
+        <unitPrice>300</unitPrice>
+        <subtotal>300</subtotal>
+      </item>
+    </items>
+  </order>
+  <order createdAt="2026-03-19T16:44:52.062053600" id="ORD-BC13F4DB">
+    <customer>
+      <name>Varshini</name>
+      <phone>9003530942</phone>
+      <address>sdafsgdhfjgdhf,jgk.ukjhytr, puducherry, puducherry - 605003</address>
+    </customer>
+    <payment>
+      <method>Net Banking</method>
+      <status>SUCCESS</status>
+      <details>Net Banking - HDFC, A/C ending in 7890, IFSC SBIN0001234, User 2301107117@ptuniv.edu.in</details>
+      <totalAmount>580</totalAmount>
+    </payment>
+    <items>
+      <item>
+        <productName>Hair Conditioner</productName>
+        <quantity>2</quantity>
+        <unitPrice>180</unitPrice>
+        <subtotal>360</subtotal>
+      </item>
+      <item>
+        <productName>Hair Oil</productName>
+        <quantity>1</quantity>
+        <unitPrice>220</unitPrice>
+        <subtotal>220</subtotal>
+      </item>
+    </items>
+  </order>
+  <order createdAt="2026-04-01T15:07:17.650937900" id="ORD-1A59B360">
+    <customer>
+      <name>vignesh</name>
+      <phone>9003530942</phone>
+      <address>26 vandikaran stret &#13;
+muthialpet, puducherry, puducherry - 605003</address>
+    </customer>
+    <payment>
+      <method>QR Payment</method>
+      <status>SUCCESS</status>
+      <details>Paid via QR</details>
+      <totalAmount>220</totalAmount>
+    </payment>
+    <items>
+      <item>
+        <productName>Hair Oil</productName>
+        <quantity>1</quantity>
+        <unitPrice>220</unitPrice>
+        <subtotal>220</subtotal>
+      </item>
+    </items>
+  </order>
+  <order createdAt="2026-04-01T16:00:19.463945100" id="ORD-91E5BC28">
+    <customer>
+      <name>vignesh</name>
+      <phone>9003530942</phone>
+      <address>26, vandikaran street&#13;
+muthialpet, puducherry, puducherry - 605003</address>
+    </customer>
+    <payment>
+      <method>Card</method>
+      <status>SUCCESS</status>
+      <details>Card ending in 9242</details>
+      <totalAmount>550</totalAmount>
+    </payment>
+    <items>
+      <item>
+        <productName>Face Serum</productName>
+        <quantity>1</quantity>
+        <unitPrice>550</unitPrice>
+        <subtotal>550</subtotal>
+      </item>
+    </items>
+  </order>
+  <order createdAt="2026-04-03T10:01:47.210068100" id="ORD-A0771707">
+    <customer>
+      <name>Varshini</name>
+      <phone>9003530942</phone>
+      <address>2qerwytuiyolu;iluihkyugjyhftdgrsfeadw, puducherry, puducherry - 605003</address>
+    </customer>
+    <payment>
+      <method>QR Payment</method>
+      <status>SUCCESS</status>
+      <details>Paid via QR</details>
+      <totalAmount>300</totalAmount>
+    </payment>
+    <items>
+      <item>
+        <productName>Face Cream</productName>
+        <quantity>1</quantity>
+        <unitPrice>300</unitPrice>
+        <subtotal>300</subtotal>
+      </item>
+    </items>
+  </order>
+</orders>
